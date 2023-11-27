@@ -4,7 +4,7 @@ import numpy as np
 from orbit import Orbit, plot_criterion, plot_poloidal_view, plot_top_view
 
 if __name__ == "__main__":
-    # Question 3
+    # Particle 1
 
     m = 6.644e-27
     R0 = 1
@@ -60,7 +60,7 @@ if __name__ == "__main__":
     plt.savefig("particle1_poloidal_view.pdf", bbox_inches="tight")
     plt.show()
 
-    # Question 4
+    # Particle 2
 
     m = 6.644e-27
     R0 = 1
@@ -116,7 +116,7 @@ if __name__ == "__main__":
     plt.savefig("particle_poloidal_view.pdf", bbox_inches="tight")
     plt.show()
 
-    # Question 5
+    # Both particles no E-field
 
     # Parameters common to both particles
     m = 6.644e-27
@@ -202,7 +202,7 @@ if __name__ == "__main__":
     plt.savefig("both_particles_poloidal_view_no_efield.pdf", bbox_inches="tight")
     plt.show()
 
-    # Question 5 - E-field
+    # Both particles with E-field
 
     # Parameters common to both particles
     m = 6.644e-27
@@ -295,7 +295,7 @@ if __name__ == "__main__":
     plt.savefig("both_particles_poloidal_view_with_efield.pdf", bbox_inches="tight")
     plt.show()
 
-    # Question 6
+    # ITER - No E-field
 
     # Parameters common to both particles
     m = 6.644e-27
@@ -352,7 +352,7 @@ if __name__ == "__main__":
     plt.savefig("both_particles_ITER_poloidal_view_no_efield.pdf", bbox_inches="tight")
     plt.show()
 
-    # Question 6 - E-field
+    # ITER - With E-field
 
     # Parameters common to both particles
     m = 6.644e-27
